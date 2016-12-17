@@ -5,7 +5,7 @@
 
   <remote fetch="git://github.com/t2m-foxfone/" name="t2m"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/shawnbow/" name="t2m-vendor"/>
+  <remote fetch="git://github.com/Juanico06/" name="Juanico"/>
 
 
 <!-- Remove project -->
@@ -35,7 +35,7 @@
    <!-- Flame specific things -->
 
 
-  <!-- kernel qnd recovery -->
+  <!-- kernel and recovery -->
 
   <remove-project name="kernel/lk"/>
   <remove-project name="kernel/msm"/>
@@ -47,10 +47,10 @@
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="d5e53ed6f22fa06052351dc03510af9473af01ea"/>
   
   
-  <!-- Fla repository -->
+  <!-- Flame repository -->
 
-  <project path="device/t2m/flame" name="device-flame" remote="b2g" revision="205ac4204bbbb2098a8046444acba551ba5dc75a"/>
-  <project path="vendor/t2m/flame" name="vendor_t2m_flame" remote="t2m-vendor" revision="d2c78ea0f3312207ebf50c9498eb6f7995d3ddce"/>
+  <project path="device/t2m/flame" name="device_flame" remote="Juanico" revision="98755535a3f5541047e9190d981dfc6b0b8c1a96"/>
+  <project path="vendor/t2m/flame" name="vendor_flame" remote="Juanico" revision="55cb6726955e7e7d3d613c78e962c9099926a074"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="4186bdecb4dae911b39a8202252cc2310d91b0be"/>
   
 
