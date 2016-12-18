@@ -47,8 +47,8 @@
   
   <!-- Flame repository -->
 
-  <project path="device/t2m/flame" name="device_flame" remote="Juanico" revision="98755535a3f5541047e9190d981dfc6b0b8c1a96"/>
-  <project path="vendor/t2m/flame" name="vendor_flame" remote="Juanico" revision="55cb6726955e7e7d3d613c78e962c9099926a074"/>
+  <project path="device/t2m/flame" name="device_flame" remote="Juanico" revision="master"/>
+  <project path="vendor/t2m/flame" name="vendor_flame" remote="Juanico" revision="kitkat-4.4.2"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="4186bdecb4dae911b39a8202252cc2310d91b0be"/>
   
 
@@ -76,7 +76,7 @@
   <project name="platform_bionic" path="bionic" remote="b2g" revision="3e85c4683c121530c1c3a48c696a569bf5f587e2"/>
 
   <remove-project name="device/qcom/common"/>
-  <project name="device_qcom_common" path="device/qcom/common" remote="Juanico" revision="066abe523d473916bd2dccdec39cdf00ddf152df">
+  <project name="device_qcom_common" path="device/qcom/common" remote="Juanico" revision="master">
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
