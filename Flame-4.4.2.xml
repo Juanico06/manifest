@@ -43,9 +43,7 @@
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="03396c93577aafae7ca3603de1c74eafd30e7d54"/>
   <project path="bootable/bootloader/lk" name="kernel_lk" remote="b2g" revision="fda40423ffa573dc6cafd3780515010cb2a086be"/>
   
-  <remove-project name="platform/bootable/recovery"/>
-  <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="d5e53ed6f22fa06052351dc03510af9473af01ea"/>
-  
+ 
   
   <!-- Flame repository -->
 
@@ -78,7 +76,7 @@
   <project name="platform_bionic" path="bionic" remote="b2g" revision="3e85c4683c121530c1c3a48c696a569bf5f587e2"/>
 
   <remove-project name="device/qcom/common"/>
-  <project name="device/qcom/common" path="device/qcom/common" revision="2501e5940ba69ece7654ff85611c76ae5bda299c">
+  <project name="device_qcom_common" path="device/qcom/common" remote="Juanico" revision="066abe523d473916bd2dccdec39cdf00ddf152df">
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
