@@ -1,0 +1,5 @@
+
+This is the repository init for Android 4.4.2 (initial repository for FFOS)
+ 
+repo init -u git://codeaurora.org/platform/manifest.git -b release -m LNX.LA.3.5.2.1.1-00200-8x10.0.xml --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
+
