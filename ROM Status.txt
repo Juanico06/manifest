@@ -1,0 +1,40 @@
+
+No other Language than English, Deutsch, Español, and Chinese
+No Google APP 
+Good realibility and speed
+
+What is working well directly :
+
+Wifi
+Bluetooth
+2G Multi sim calls
+Sound
+Internal Storage = 2Go only vs 6Go posible 
+Extrernal storage
+
+What is working after adjustments :
+
+Camera via other app - front and rear
+3G by adding APN 
+
+What is not working well :
+
+Airplane mode switch totaly radio, need SIM PIN to restard 2G-3G
+Pin pad not well drawed (SIM pin pad, and screen lock pad)
+External micro (same as firefox os level very low)
+
+
+What is not working :
+
+AOSP Camera
+Head phone detection (not sure it is not a proble from my device)
+Direct access to Mobile networks in language <> "English" 
+
+
+
+APP tested :
+Telegram
+Whatsapp
+Firefox
+Nova launcher 
+ 
